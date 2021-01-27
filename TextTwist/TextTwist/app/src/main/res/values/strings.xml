@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TextTwist</string>
+    <string name="log_in_text">Enter a username to join the game!</string>
+    <string name="username_prompt">Username</string>
+    <string name="log_in_button">Log In</string>
+    <string name="waiting_text">Game will start soon. Please wait.</string>
+    <string name="letters_text">letters</string>
+    <string name="guess_prompt">Guess</string>
+    <string name="submit_button">Submit Guess</string>
+    <string name="score_text">Congratulations! Your score was </string>
+    <string name="play_again_button">Play Again</string>
+    <string name="username_taken">Username taken. Please try again.</string>
+    <string name="start_game_button">Start Game</string>
+    <string name="end_game_button">End Game</string>
+</resources>
