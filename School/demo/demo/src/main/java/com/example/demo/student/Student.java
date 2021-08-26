@@ -65,10 +65,6 @@ public class Student {
         this.subjectGradesMap = subjectGradesMap;
     }
 
-    public void addGrades(Subject subject, Grades grades) {
-        subjectGradesMap.put(subject, grades);
-    }
-
     @Override
     public String toString() {
         return "Student{" +

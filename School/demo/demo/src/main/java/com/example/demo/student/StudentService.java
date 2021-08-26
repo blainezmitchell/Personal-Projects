@@ -67,7 +67,7 @@ public class StudentService {
                 () -> new IllegalStateException("grades with Id " + gradesId + " do not exist")
         );
 
-        student.addGrades(subject, grades);
+        student.getSubjectGradesMap().put(subject, grades);
     }
 
     public Student reportCard(Long studentId) {
