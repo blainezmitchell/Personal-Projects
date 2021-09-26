@@ -1,0 +1,11 @@
+Introduction:
+Hello! My name is Blaine Mitchell, and this is my "School" coding project! It uses Spring Boot to create the backend for a simple school system. As part of the school system, there are four entities: student, teacher, subject, and grades, as well as a database using H2 to store information about these entities. The point of the system is to be able to sign students up for subjects, add teachers to those subjects, and add grades to the students. The "goal" was to create the ability to generate a "report card" for a student that would list all their enrolled subjects, the teachers of those subjects, and the grades they received.
+
+Using the App:
+When using the app, the user can do any of several things with all of the four entities. They can get a list of all instances of that entity currently in the system, add a new instance, update an existing instance, or delete an existing instance. In all cases, proper checking is done to ensure these things are possible, and the proper error message is returned (for example, if a user tries to delete a student that is not currently in the system, they will be told this). The additional thing the user can do is generate a report card for a student.
+
+Reflection:
+Overall, I have learned so much from this project. This was my first exposure to RESTful APIs, and learning about them was both extremely challenging and extremely rewarding. I can see the potential for APIs in creating industry-standard applications, and I'm excited to continue working with them on projects in the future, maybe even in other languages or contexts!
+
+With more time:
+To add to this project, I would probably just add more features and ways the user could interact with the database to quickly do what they want. I could even add something like a login/authentication process where users could sign in. Administrative priviliges could be given to only select users, who could enter data about students, and then other users would be able to access information about only specific people (for example, a given student would only be able to see their own report card). I could also add an intuitive front-end to make adding data easier for the user.

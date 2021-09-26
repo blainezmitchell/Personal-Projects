@@ -1,0 +1,11 @@
+Introduction:
+Hello! My name is Blaine Mitchell, and this is my "Hot 100" coding project! It contains a backend and a simple, terminal-based frontend for the game. The game involves guessing what order three songs appear on the "Hot 100" songs list.
+
+Using the App:
+When playing the game, the user should experience a simple game play loop. First, they will be shown three songs numbered 1, 2, and 3 (which does not indicate anything about the order in which they appear on the Hot 100 list). They will then be prompted to guess the #1 song (i.e. the song that appears closest to #1 on the Hot 100 list). They should enter the number corresponding to that song, and then do the same for the second highest and third highest songs. They will then be told whether they were correct. If they were incorrect, the correct order will be shown. In either case, the user will be asked if they want to play again, which they can do by simply entering "y". Any other input will display stats about that game session and then terminate.
+
+Reflection:
+Overall, I'm very happy with the code I've written. My previous experience with APIs was through Spring Boot for Java, and before this project, I was sligtly unfamiliar with Python, so most of my development time came from learning parts of Python rather than working on the project itself. Therefore, the application is mostly very basic, and, for example, doesn't contain error checking for input. Despite this, for a first version, I felt like this was the perfect test of skill for me. I've learned a lot about Python and about APIs in Python specifically.
+
+With more time:
+There is a lot of "basic" things I still would want to add. As I mentioned in my reflection, I would love a little bit of extra time to go through and add basic error checking to the application so it doesn't require the user to play nice to not crash. I would also have loved to learn React and/or Node, but ultimately was slightly more comfortable with Python due to previous experience, so decided due to time constraints to go with that. Web scraping also sounds really really cool, so I would love to implement that in the backend at some point as well. Overall, I will probably return to this project in the future to practice all of these things and learn a little bit more!

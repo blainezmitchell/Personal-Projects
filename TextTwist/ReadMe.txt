@@ -1,19 +1,11 @@
-This project is designed to expand upon a program I created in Data Structures. The original program took
-a string of letters and output every possible combination of words you could make with those letters,
-given a dictionary that was stored in a txt file. The goal was to turn this into a real-time game. In
-order to do this, I needed to convert my original program from C++ into Java, and then set up a server
-and client for the game. The game needed to be able to be played with any number of players and keep
-track of their scores and guesses.
+Introduction:
+Hello! My name is Blaine Mitchell, and this is my "TextTwist" coding project! It builds off of a program I wrote in my Data Structures class that printed all possible words to make from a given combination of letters. The new, updated version contains code for both a client and a server to play a simple, text-based game, where players are given a set of letters and must attempt to make words from them. For some time, I was running the server on AWS (and even had some of my friends play it!).
 
-I chose this project because I loved the idea of using networking concepts to create a fun, real-time
-game. I wasn't sure what kind of game I wanted to make, as I wanted it to be simple enough that I could
-feasibly implement it as a first project but also complicated enough to be challenging and force me to use
-new tools. I ultimately settled on this as it took something I created before and expanded on it, which made
-it feel more personal and also more fun to work on, as it was all original material.
+Using the App:
+The game will run as an Android app. The user will first be prompted to enter a username (and told if their choice is taken by someone else) and then wait. The first person to do so will be designated the "Host" and have the option of beginning the game by pressing a button on-screen. They should wait until everyone who wants to play has joined before beginning. Once the game begins, all players will receive eight letters, and tasked with spelling as many words as they can with those eight letters. They earn points based on how many words they guess and how long the words are. At any time, any player can choose to end the game, at which point every other player will get one more guess before the game ends and the leaderboards are shown. The game will then reset.
 
-In terms of technical challenges, this was quite the challenge for me personally. At the start of the project, I
-wasn't particularly well-versed in the networking side of Java nor with Android Studio, and so a lot of the
-programming took longer than it probably otherwise would have. However, as a result of my trials, I feel much
-more confident utilizing these tools in the future, and I'm also quite proud of the final product. I plan
-on expanding on this project even more at some point in the future, to add more features and smooth out
-some of the existing parts.
+Reflection:
+Overall, since this was my first project, I was quite happy with how it turned out. It was the perfect combination of things I knew and was comfortable with and things I didn't know and was not comfortable with. Because it builds off of a program I had already created, I was able to dive right into learning new things, like networking in Java and client/server protocol, as well as Android Studio and AWS. Ultimately, it was challenging and definitely took some time to get used to, but through a combination of perseverance and willingness to learn, I was able to complete the project to a level where I am satisfied.
+
+With more time:
+Overall, there's a lot more I could do with this game. I could experiment around with different designs for the app to make it look nicer, or I could add different modes or the ability for multiple games to be played at the same time. There's also the possibility of adding new game modes, such as a time attack game mode where players play against a clock rather than playing as long as they want to.
